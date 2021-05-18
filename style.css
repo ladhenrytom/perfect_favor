@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 2rem .8rem;
+    background: burlywood;
+    color: brown;
+    opacity: .8;
+}
+.navbar-brand h3:hover{
+    transition: .1s;
+    font-size: 1.5rem;
+    color: crimson;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links a{
+    color: brown;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    background-color: brown;
+    padding: .5rem;
+    color: burlywood;
+    transition: .1s;
+    font-size: 1.3rem;
+}
+.nav-links li{
+    margin-left: 40px;
+}
+.section-one{
+    width: 100%;
+}
+.bg-image{
+    display: flex;
+}
+.bg-image p{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 400px;
+}
+.section-one-caption{
+    width: 100%;
+    display: block;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    top: 45%;
+}
+.section-one-caption h1{
+    text-align: center;
+    color: burlywood;
+    opacity: .5;
+}
+.section-one-caption h1:hover{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    opacity: 1;
+    transition: .1s;
+}
+.section-one-caption button{
+    outline: none;
+    border: none;
+    background: burlywood;
+    padding: .5rem;
+    color: brown;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 5rem;
+}
+.caption-button{
+    margin-top: 2rem;
+    margin-left: 35%;
+    opacity: .5;
+}
+.caption-button button:hover{
+    opacity: 1;
+    stroke: burlywood;
+    fill: burlywood;
+    font-size: 2rem;
+    transition: .1s;
+}
+.mid-section{
+    background: burlywood;
+    display: block;
+    color: brown;
+    padding: 2rem;
+    justify-content: space-around;
+    border-bottom: 4px solid brown;
+}
+.mid-section h4{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.collapsibleBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: brown;
+    padding: 2rem;
+    cursor: pointer;
+    color: burlywood;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.read-more{
+    background: burlywood;
+    color: brown;
+    text-decoration: none;
+    padding: .5rem;
+}
+.read-more:hover{
+    font-size: 1.3rem;
+}
+.content {
+    display: none;
+    font-size: 1.5rem;
+    padding: 2rem;
+    background: burlywood;
+    overflow: hidden;
+}
+.inside-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.left-inside-content{
+    width: 40%;
+    overflow: hidden;
+    display: flex;
+    text-align: justify;
+}
+.section-two{
+    width: 100%;
+    background: burlywood;
+    padding-bottom:3rem ;
+}
+.section-two h2{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    padding: 3rem;
+}
+.dashboard-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 2rem;
+    padding: 5rem 5rem;
+}
+.card-single{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+    color: burlywood;
+    background:brown;
+    padding: 2rem;
+    border-radius: 2px;
+}
+.card-single div:last-child span{
+    font-size: 3rem;
+}
+.socials{
+    width: 100%;
+    border-top: 4px solid brown;
+    background: burlywood;
+    padding: 3rem;
+}
+.socials h2{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color:brown;
+}
+.social-media{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+}
+.fa-facebook{
+    color: blue;
+    font-size: 5rem;
+}
+.fa-youtube{
+    color: red;
+    font-size: 5rem;
+}
+.fa-twitter{
+    color: rgb(24, 117, 179);
+    font-size: 5rem;
+}
+.fa-instagram{
+    color: brown;
+    font-size: 5rem;
+}
+.footer{
+    width: 100%;
+    background: brown;
+    color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.left-footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: .8rem;
+
+}
+.left-footer h1{
+    text-align: center;
+    border-bottom: 1px solid burlywood;
+    margin-bottom: 1rem;
+}
+.left-footer h2{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.middle-footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: .8rem;
+}
+.middle-footer h1{
+    text-align: center;
+    border-bottom: 1px solid burlywood;
+    margin-bottom: 1rem;
+}
+.middle-footer h2{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.right-footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: .8rem;
+}
+.right-footer h1{
+    text-align: center;
+    border-bottom: 1px solid burlywood;
+    margin-bottom: 1rem;
+}
+.right-footer h2{
+    margin-bottom: 1rem;
+    text-align: center;
+}
